@@ -15,6 +15,7 @@
  */
 class Solution {
     public void deleteNode(ListNode node) {
+        // 将后一个节点的值赋值给待删除的节点，然后删除后一个节点
         ListNode temp = node.next;
         node.val = temp.val;
         node.next = temp.next;
