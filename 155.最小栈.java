@@ -36,7 +36,7 @@ class MinStack {
             throw new RuntimeException();
         }
         head = head.next;
-        top = head;
+        top = head.next;
     }
     
     public int top() {
