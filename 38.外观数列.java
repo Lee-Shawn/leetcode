@@ -32,6 +32,34 @@ class Solution {
         seq += count + "";
         seq += var;
         return seq;
+        
+        // String s = "1";
+        // if (n == 1) {
+        //     return s;
+        // }
+        // s = "11";
+        // if (n == 2) {
+        //     return s;
+        // }
+        // char c = s.charAt(0);
+        // String result = "";
+        // for (int i = 3; i <= n; i++) {
+        //     result = "";
+        //     int count = 0;
+        //     for (int j = 0; j < s.length(); j++) {
+        //         if (s.charAt(j) == c) {
+        //             count++;
+        //         } else {
+        //             result += count + "" + c;
+        //             c = s.charAt(j);
+        //             count = 1;
+        //         }
+        //     }
+        //     result += count + "" + c;
+        //     s = result;
+        //     c = s.charAt(0);
+        // }
+        // return result;
     }
 }
 // @lc code=end
